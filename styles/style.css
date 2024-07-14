@@ -348,4 +348,62 @@ align-items: flex-start;
 .support-cantainer{
     width: 1440px;
     height: 380px;
+    border: 2px solid yellow ;
+    margin-top: 50px;
+}
+.support-main-cantainer{
+    width: 1140px;
+    height: 290px;
+    border: 2px solid yellow;
+    margin: 0% auto;
+    background-image: url(/assets/handshake.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    margin-top: 30px;
+    border-radius: 16px;
+
+background: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),url(Email);
+}
+.support-sub-cantainer{
+    width: 1044px;
+height: 186px;
+border: 2px solid yellow;
+    margin: 0% auto;
+    margin-top: 60px;
+}
+.support-text-cantainer h1{
+    text-align: center;
+    color:rgb(255, 255, 255);
+    font-size: 32px;
+    margin-top: 20px;
+}
+.support-text-cantainer p{
+    text-align: center;
+    font-size: 16px;
+    color:rgb(255, 255, 255);
+}
+.input-sumit-cantainer{
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap: 10px;
+}
+.input-sumit-cantainer input{
+    width: 548px;
+height: 57px;
+box-sizing: border-box;
+border: 1px solid rgba(13, 19, 33, 0.15);
+border-radius: 8px;
+
+background: rgb(255, 255, 255);
+}
+.input-sumit-cantainer button{
+    width: 120px;
+height: 58px;
+border-radius: 8px;
+
+background: rgb(255, 255, 255);
 }
