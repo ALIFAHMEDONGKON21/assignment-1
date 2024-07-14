@@ -1,0 +1,107 @@
+.body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+.banner-section-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1440px;
+    height: 652px;
+    /* border:  2px solid red; */
+    background-image: url(/assets/Hero-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner-photo-text-container{
+    /* border: 2px solid rebeccapurple; */
+    width: 998px;
+    height: 584px;
+    text-align: center;
+   
+}
+.banner-photo-text-container img {
+    width: 240px;
+    height: 240px;
+    /* border: 2px solid green ; */
+}
+
+.banner-photo-text-container h1{
+    color: rgb(13, 19, 33);
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 68px;
+    letter-spacing: 0%;
+    text-align: center;
+/* border:  2px solid royalblue; */
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+.banner-photo-text-container p{
+    color: rgb(13, 19, 33);
+    height: 52px;
+    width: 780px;
+    margin: 0 auto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+  
+    margin-top: 10px;
+    
+}
+
+.banner-photo-text-container button{
+    border-radius: 8px;
+    background: rgb(13, 19, 33);
+    width: 208px;
+    height: 66px;
+    color: aliceblue;
+    margin-top: 20px;
+}
+.Development-model-containar{
+    width: 1440px;
+    height: 1500px;
+    border: 2px solid red;
+}
+
+
+.full-model-cantainar{
+    width: 1140px;
+    height: 1395px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
+    margin: 0 auto;
+    border: 2px solid rebeccapurple;
+    margin-top: 40px;
+}
+.full-model-cantainar-main{
+    width: 946px;
+height: 1235px;
+border:  2px solid red;
+margin: 0% auto;
+margin-top: 65px;
+}
+.model-title-cantainar{
+    text-align: center;
+}
+.model-title-cantainar h1{
+    font-size: 32px;
+    text-align: center;
+}
+.model-title-cantainar p{
+    width: 852px;
+height: 52px;
+    font-size: 16px;
+    display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+}
